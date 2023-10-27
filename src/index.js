@@ -48,7 +48,8 @@ function updateTime() {
           <div class="date">${citiesTime.format("MMMM Do YYYY")}</div>
         </div>
         <div class="time">${citiesTime.format('h:mm:ss [<small>]A[</small>]')}</div>
-      </div>`;
+      </div>`
+      ;
   }
 
   updateTime();
@@ -69,9 +70,10 @@ function updateTime() {
           <div class="date">${citiesTime.format("MMMM Do YYYY")}</div>
         </div>
         <div class="time">${citiesTime.format('h:mm:ss [<small>]A[</small>]')}
-        </div>`;
+        </div>
+        </div>
+        <a href="index.html"> All cities </a>`;
         
-
   }
 
   
